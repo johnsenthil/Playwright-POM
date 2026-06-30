@@ -3,7 +3,6 @@ package com.qa.opencart.factory;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.lang.classfile.instruction.SwitchCase;
 import java.nio.file.Paths;
 import java.util.Base64;
 import java.util.Properties;

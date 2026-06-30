@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OpenCart Playwright Regression Suite"
+       parallel="tests"
+       thread-count="2">
+
+    <!-- TestNG Listeners -->
+    <listeners>
+        <listener class-name="com.qa.opencart.listeners.ExtentReportListener"/>
+    </listeners>
+
+    <!-- Login Page Tests -->
+    <test name="Login Page Tests">
+        <classes>
+            <class name="com.qa.opencart.tests.LoginPageTest"/>
+        </classes>
+    </test>
+    
+    <!-- Home Page Page Tests -->
+    <test name="Home Page Tests">
+        <classes>
+            <class name="com.qa.opencart.tests.HomePageTest"/>
+        </classes>
+    </test>
+
+</suite>
